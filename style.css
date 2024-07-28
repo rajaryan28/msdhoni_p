@@ -1,0 +1,207 @@
+@keyframes logoAnime {
+    0%{
+        border-radius: 50% 10% 50% 10%/10% 50% 10% 50%;
+    }
+    50%{
+        border-radius:10% 40% 
+    }
+    /* 50%{
+        border-radius:10% 50% 10% 50%/50% 10% 50% 10%
+    } */
+    100%{
+        border-radius: 50% 10% 50% 10%/10% 50% 10% 50%;
+        
+    }
+    
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(181, 178, 178);
+    /* background: url("./bgGif.mp4"); */
+    background-image: url("https://i.makeagif.com/media/11-28-2020/zzr0hC.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+#scrollspyHeading1{
+    height: 100vh;
+    /* width: 100vw; */
+    /* background-image: url("https://i.pinimg.com/originals/94/70/9e/94709edff18abbfcecb713d95298574e.gif"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+}
+.anime{
+        background-color: #b28945;
+        overflow: hidden;
+        position: fixed;
+        top: 20%;
+        border-radius: 5%;
+
+    }
+#msTitle{
+        color: #61450d;
+        position: absolute;
+        top:9%;
+        left: 40%;
+    }
+span{
+      color: #b28945;
+    }
+#msd-logo{
+      height: 110px;
+      position: absolute;
+      top:5%;
+      left: 7%;
+      border-radius:50% 10% 50% 10%/10% 50% 10% 50%; ;
+      animation-name: logoAnime;
+      animation-duration: 7s;
+      animation-delay: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      
+}
+a{
+    color: #b28945;
+}
+a:hover{
+    color: #553d0e;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#msdP1{
+    position: absolute;
+    left: 3%;
+    top:33%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3%;
+}
+#msdP2{
+    position: absolute;
+    left: 36%;
+    top:33%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3%;
+}
+#msdP3{
+    position: absolute;
+    left: 69%;
+    top:33%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3%;
+}
+
+#scrollspyHeading2{
+    margin-left: -2%;
+    width: 100vw;
+    /* background-image: url("https://static.vecteezy.com/system/resources/thumbnails/025/457/876/original/blurred-animation-smooth-a-colorful-marble-acrylic-seamless-pattern-water-texture-watercolor-marble-background-free-video.jpg"); */
+    
+}
+
+#aboutImg {
+    height: 272px;;
+    opacity: 1; /* Initial opacity for smooth transition */
+    transition: opacity 1s ease-in-out; /* Transition properties */
+  }
+  
+#birthday{
+    height: 200px;
+    /* width: 100vw; */
+    background-color: #fcfdfc;
+    border-radius: 10px;
+    
+    
+}
+
+#birthdayImg{
+    margin-left: 80%;
+    position: absolute;
+    left: -1%;
+}
+
+  
+/* counter  */
+
+#age-counter {
+  height: 100px;
+  width: 100vw;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: -35px;
+}
+
+.trophies{
+  height: 150px;
+}
+
+#t20{
+    position: relative;
+    left: 53%;
+    bottom: 580px;
+}
+#yt20{
+    position: relative;
+    left: 62%;
+    bottom: 580px;
+}
+
+
+#odi{
+    position: relative;
+    left: 48px;
+    bottom: 450px;
+}
+#yodi{
+    position: relative;
+    left: 30%;
+    bottom: 440px;
+}
+
+
+#championsT{
+    position: relative;
+    left: 15%;
+    bottom: 330px;
+}
+#yct{
+    position: relative;
+    left: 56%;
+    bottom: 327px;
+}
+
+
+#asiaCup{
+    position: relative;
+    right: 27%;
+    bottom: 220px;
+}
+#yac{
+    position: relative;
+    left: 23%;
+    bottom: 220px;
+}
+
+
+#ipl{
+    position: relative;
+    right: 10%;
+    bottom: 100px;
+}
+#yipl{
+    position: relative;
+    left: 40%;
+    bottom: 98px;
+}
+
+
+#imageslider{
+    height: 200px;
+}
+
+
+/* image lider */
+
