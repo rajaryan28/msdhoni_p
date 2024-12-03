@@ -218,7 +218,7 @@ a:hover{
 .slide-track{
     display: flex;
     width: calc(250px * 18);
-    animation: scroll 170s linear infinite;
+    animation: scroll 100s linear infinite;
 }
 .slide-track:hover{
     animation-play-state: paused;
@@ -273,3 +273,33 @@ img:hover{
     transform: rotateZ(180deg);
 }
 
+
+/* footer */
+
+footer {
+    margin-top: 20px;
+    background-color: #d6beab5c;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .social-media a {
+    margin-right: 10px;
+    color: #333;
+}
