@@ -303,3 +303,17 @@ footer .social-media a {
     margin-right: 10px;
     color: #333;
 }
+
+
+.social-media {
+    text-align: center;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+  }
+  
+  .social-media img {
+    width: 24px;
+    height: 24px;
+  }
