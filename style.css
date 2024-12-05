@@ -317,3 +317,28 @@ footer .social-media a {
     width: 24px;
     height: 24px;
   }
+
+/* coursor effect */
+
+.cursor-dot{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(163, 79, 0);
+}
+
+.cursor-outline{
+    width: 30px;
+    height: 30px;
+    border: 2px solid hsla(30, 93%, 45%, 0.5);
+}
+
+.cursor-dot,
+.cursor-outline{
+    position: fixed;
+    top:0 ;
+    left: 0;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
